@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.researchproject1222024.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\alecr\\Desktop\\General Media\\Coding\\unity\\Research Project 1222024\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Research Project 1222024 [Testing]"
+        }
+      }
+    }
+  ]
+}

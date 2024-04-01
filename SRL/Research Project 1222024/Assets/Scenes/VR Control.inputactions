@@ -1,0 +1,76 @@
+{
+    "name": "VR Control",
+    "maps": [
+        {
+            "name": "Custom",
+            "id": "48bdba05-35bb-48fa-8d54-623d6e94e519",
+            "actions": [
+                {
+                    "name": "CameraUp",
+                    "type": "Button",
+                    "id": "9d76b393-c381-416a-a673-54db281d3395",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CameraDown",
+                    "type": "Button",
+                    "id": "80877006-343e-468f-857b-c09430897677",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3e936d66-35ab-42a4-882f-79a5a9172c89",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cdad3e16-bc07-45bd-950d-2aa4550e70d5",
+                    "path": "<XRSimulatedController>/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a9f7cd4a-e7ec-455d-96c8-75686f845094",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0d7f99a-ab94-47c8-92fd-57af1448d95f",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
